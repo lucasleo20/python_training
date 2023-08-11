@@ -14,7 +14,7 @@ for k,v in familia_ruiz.items():
         oldest = v[2]
         oldest_name = k
 
-print(oldest_name,oldest)
+print("the oldest is", oldest_name,oldest, "years")
 
 
 for k,v in familia_ruiz.items():
@@ -22,11 +22,11 @@ for k,v in familia_ruiz.items():
         lightest = v[1]
         lightest_name = k
 
-print(lightest_name,lightest)
+print("the lightest is", lightest_name,lightest, "kg")
 
 for k,v in familia_ruiz.items():
     if v[1]> heaviest:
         heaviest = v[1]
         heaviest_name = k
 
-print(heaviest_name,heaviest)
+print("the heaviest is ", heaviest_name,heaviest, "kg")
