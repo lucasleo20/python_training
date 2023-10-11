@@ -1,0 +1,17 @@
+from random import randint
+'''This code checks for prime numbers. It iterates from 2 to the input number. 
+The number will be considered a prime number if by the end of the interaction. Non of the checked values modules equal 0'''
+
+num = randint(1,100)
+is_prime = True
+print(num)
+
+for x in range (2,num):
+    if num % x == 0:
+        is_prime = False 
+        
+        
+if is_prime == True:
+    print("prime number")
+else:
+    print ("not prime number")    
